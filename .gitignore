@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# CI4 writable & environment
+ci4apiumkm/.env
+ci4apiumkm/writable/cache/*
+!ci4apiumkm/writable/cache/.gitkeep
+ci4apiumkm/writable/debugbar/*
+!ci4apiumkm/writable/debugbar/.gitkeep
+ci4apiumkm/writable/logs/*
+!ci4apiumkm/writable/logs/.gitkeep
+ci4apiumkm/writable/session/*
+!ci4apiumkm/writable/session/.gitkeep
+ci4apiumkm/writable/uploads/*
+!ci4apiumkm/writable/uploads/.gitkeep
+
+# Flutter
+umkm_api/.dart_tool/
+umkm_api/.idea/
+umkm_api/build/
+umkm_api/.flutter-plugins
+umkm_api/.flutter-plugins-dependencies
